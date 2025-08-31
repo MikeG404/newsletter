@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+    --white: #fff;
+    --grey: #949494;
+
+    --blue-700: #36384D;
+    --blue-800: #242742;
+
+    --red: #FF6155;
+
+    --gradient-4: linear-gradient(90deg,rgba(255, 106, 58, 1) 0%, rgba(255, 82, 123, 1) 100%);
+}
+
+#root {
+    min-height: 100vh;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.text-preset-1 {
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+
+.text-preset-2-bold {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.text-preset-2-regular {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.text-preset-3 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: black;
+}
