@@ -15,7 +15,7 @@ export default function Button({text, variant = 'primary'}) {
     return (
         <button
             type="submit"
-            className="px-[72px] py-4 text-white rounded-lg text-preset-2-bold"
+            className="px-[48px] py-4 text-white rounded-lg text-preset-2-bold"
             style={{ background: v.background, boxShadow: v.boxShadow }}
         >
             {text}

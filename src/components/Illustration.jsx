@@ -1,6 +1,6 @@
 import Desktop from '../assets/illustration-sign-up-desktop.svg';
 import Tablet from '../assets/illustration-sign-up-tablet.svg';
-import Mobile from '../assets/illustration-sign-up-mobile.svg';
+import Mobile from '../assets/img.png';
 
 export default function Illustration() {
     return (

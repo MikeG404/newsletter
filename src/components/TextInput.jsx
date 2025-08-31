@@ -6,7 +6,7 @@ export default function TextInput({ name, label, type = 'text', placeholder }) {
                 type={type}
                 name={name}
                 placeholder={placeholder}
-                className="px-6 py-4 rounded border border-zinc-200 placeholder:text-gray-300 focus:outline focus:outline-black"/>
+                className="px-6 py-4 h-14 rounded-lg border border-[#949494] placeholder:text-[#949494] focus:outline focus:outline-black"/>
         </div>
     )
 }
