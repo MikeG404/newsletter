@@ -63,3 +63,12 @@ p, h1 {
     letter-spacing: 0;
     color: #242742;
 }
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: var(--gradient-4) !important;
+    box-shadow: 0 10px 20px rgba(255, 106, 58, 0.2), 0 6px 6px rgba(255, 82, 123, 0.2) !important;
+}
