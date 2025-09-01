@@ -4,7 +4,7 @@ import Mobile from '../assets/illustration-sign-up-mobile.svg';
 
 export default function Illustration() {
     return (
-        <div className="illustration-container">
+        <div className="illustration-container flex justify-center">
             <img 
                 src={Mobile} 
                 alt="Illustration" 

@@ -40,7 +40,7 @@ function App() {
 
   return (
       <main className="bg-[#36384D] md:flex md:flex-col md:items-center md:px-20 md:py-[73px]">
-          <section className="card md:p-10 xl:flex xl:flex-row-reverse xl:p-8 gap-16 bg-white rounded-3xl">
+          <section className="md:p-10 xl:flex xl:flex-row-reverse xl:p-8 gap-16 bg-white rounded-3xl">
             <Illustration />
             <section className="flex flex-col justify-center gap-10 px-[24px] py-10 md:gap-6 md:px-0 md:pb-0">
                 <div className="flex flex-col gap-6">
