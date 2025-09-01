@@ -1,4 +1,4 @@
-import CheckIcon from '/check.png';
+import CheckIcon from '../assets/check.png';
 import Button from "./Button.jsx";
 
 export default function Modal({ email, onClose }) {

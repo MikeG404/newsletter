@@ -1,4 +1,4 @@
-import CheckIcon from "/check.png";
+import CheckIcon from "../assets/check.png";
 
 const advantages = {
     1: "Product discovery and building what matters",
