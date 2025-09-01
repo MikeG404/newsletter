@@ -35,6 +35,13 @@ p, h1 {
     letter-spacing: 0;
 }
 
+.text-preset-1-large {
+    font-size: 56px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
 .text-preset-2-bold {
     font-size: 16px;
     line-height: 1.5;
@@ -55,8 +62,4 @@ p, h1 {
     font-weight: 700;
     letter-spacing: 0;
     color: #242742;
-}
-
-@media screen and (min-width: 768px) {
-
 }

@@ -9,12 +9,13 @@ const variants = {
     }
 };
 
-export default function Button({text, variant = 'primary'}) {
+export default function Button({text, variant = 'primary', onClick, type = 'submit'}) {
     const v = variants[variant] || variants.primary;
 
     return (
         <button
-            type="submit"
+            type={type}
+            onClick={onClick}
             className="px-[48px] py-4 text-white rounded-lg text-preset-2-bold"
             style={{ background: v.background, boxShadow: v.boxShadow }}
         >
